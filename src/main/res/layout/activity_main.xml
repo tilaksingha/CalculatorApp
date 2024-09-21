@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="16dp"
+        android:gravity="end" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4">
+
+        <!-- Add buttons here -->
+        <Button android:text="1" style="@style/ButtonStyle" />
+        <Button android:text="2" style="@style/ButtonStyle" />
+        <Button android:text="3" style="@style/ButtonStyle" />
+        <Button android:text="/" style="@style/ButtonStyle" />
+        <!-- Add more buttons as needed -->
+
+    </GridLayout>
+</LinearLayout>
